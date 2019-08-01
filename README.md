@@ -21,7 +21,7 @@ pod 'SPUtil'
 
 ## Author
 
-Specscd, jiaqi.zhao@cootek.cn
+Specscd, zhaojq_ios@163.com
 
 ## License
 
