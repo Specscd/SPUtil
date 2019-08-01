@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SPUtil_Example' do
+  pod 'SPUtil', :path => '../'
+
+  target 'SPUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
