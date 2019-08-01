@@ -1,0 +1,16 @@
+PODS:
+  - SPUtil (0.1.0)
+
+DEPENDENCIES:
+  - SPUtil (from `../`)
+
+EXTERNAL SOURCES:
+  SPUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPUtil: c85ea59d8d38f43dc0152adea9f3d111d23f1b67
+
+PODFILE CHECKSUM: ab073097f58c6ad8796911ef1a8f11f2bc335754
+
+COCOAPODS: 1.7.5

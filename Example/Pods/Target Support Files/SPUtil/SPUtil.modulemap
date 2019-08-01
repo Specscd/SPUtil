@@ -1,0 +1,6 @@
+framework module SPUtil {
+  umbrella header "SPUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}
