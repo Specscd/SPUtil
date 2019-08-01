@@ -8,7 +8,6 @@
 #ifndef SPComonMacro_h
 #define SPComonMacro_h
 
-#define 1PixHeight 0.5
 #define kAPPWidth (MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
 #define kAPPHeight (MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
 #define kAPPWidthScane ([UIScreen mainScreen].bounds.size.width / 375.0)
