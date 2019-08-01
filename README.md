@@ -1,5 +1,4 @@
 # SPUtil
-
 [![CI Status](https://img.shields.io/travis/Specscd/SPUtil.svg?style=flat)](https://travis-ci.org/Specscd/SPUtil)
 [![Version](https://img.shields.io/cocoapods/v/SPUtil.svg?style=flat)](https://cocoapods.org/pods/SPUtil)
 [![License](https://img.shields.io/cocoapods/l/SPUtil.svg?style=flat)](https://cocoapods.org/pods/SPUtil)
@@ -27,3 +26,4 @@ Specscd, jiaqi.zhao@cootek.cn
 ## License
 
 SPUtil is available under the MIT license. See the LICENSE file for more info.
+Common Class
