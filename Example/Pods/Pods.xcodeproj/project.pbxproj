@@ -16,7 +16,6 @@
 		9C33336F7260EF4A7B944A98F9FFFD5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D1E51661D92858ECEF5062DC583EB95F /* Pods-SPUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 158BF126DBB64FCA733A5B7B68F60E65 /* Pods-SPUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8B123661C170D532FED29D666F1A07C /* SPUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002438E2479430576C5206D0949ED30D /* SPUtil-dummy.m */; };
-		F606087422F2D3D6007F5694 /* TPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F606085B22F2D3D4007F5694 /* TPScreen.m */; };
 		F606087522F2D3D6007F5694 /* UIImage+TPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F606085C22F2D3D4007F5694 /* UIImage+TPExtension.h */; };
 		F606087622F2D3D6007F5694 /* UITextField+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = F606085D22F2D3D4007F5694 /* UITextField+Category.h */; };
 		F606087722F2D3D6007F5694 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = F606085E22F2D3D4007F5694 /* NSString+MD5.m */; };
@@ -26,8 +25,6 @@
 		F606087B22F2D3D6007F5694 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F606086222F2D3D4007F5694 /* NSString+Common.m */; };
 		F606087C22F2D3D6007F5694 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086322F2D3D4007F5694 /* NSString+MD5.h */; };
 		F606087D22F2D3D6007F5694 /* UITabBar+badge.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086422F2D3D5007F5694 /* UITabBar+badge.h */; };
-		F606087E22F2D3D6007F5694 /* TPCommonResource.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086522F2D3D5007F5694 /* TPCommonResource.h */; };
-		F606087F22F2D3D6007F5694 /* TPCommonColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086622F2D3D5007F5694 /* TPCommonColor.h */; };
 		F606088022F2D3D6007F5694 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086722F2D3D5007F5694 /* UIView+Frame.h */; };
 		F606088122F2D3D6007F5694 /* UIFont+TPCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086822F2D3D5007F5694 /* UIFont+TPCommon.h */; };
 		F606088222F2D3D6007F5694 /* UIButton+TPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086922F2D3D5007F5694 /* UIButton+TPExtension.h */; };
@@ -38,7 +35,6 @@
 		F606088722F2D3D6007F5694 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F606086E22F2D3D5007F5694 /* UIView+Toast.m */; };
 		F606088822F2D3D6007F5694 /* TPUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F606086F22F2D3D5007F5694 /* TPUIFactory.h */; };
 		F606088922F2D3D6007F5694 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = F606087022F2D3D5007F5694 /* UIView+Toast.h */; };
-		F606088A22F2D3D6007F5694 /* TPScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F606087122F2D3D5007F5694 /* TPScreen.h */; };
 		F606088B22F2D3D6007F5694 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F606087222F2D3D5007F5694 /* UIView+Frame.m */; };
 		F606088C22F2D3D6007F5694 /* UIImage+TPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F606087322F2D3D5007F5694 /* UIImage+TPExtension.m */; };
 /* End PBXBuildFile section */
@@ -92,7 +88,6 @@
 		E17FCAE9F9A8E2C3FA89EC456BD2F169 /* Pods-SPUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPUtil_Example.modulemap"; sourceTree = "<group>"; };
 		EB19798839DD408817B37FDE4786F392 /* SPUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21671CD488B33313E23D681E083F321 /* Pods-SPUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F606085B22F2D3D4007F5694 /* TPScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPScreen.m; path = SPUtil/Classes/TPScreen.m; sourceTree = "<group>"; };
 		F606085C22F2D3D4007F5694 /* UIImage+TPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+TPExtension.h"; path = "SPUtil/Classes/UIImage+TPExtension.h"; sourceTree = "<group>"; };
 		F606085D22F2D3D4007F5694 /* UITextField+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+Category.h"; path = "SPUtil/Classes/UITextField+Category.h"; sourceTree = "<group>"; };
 		F606085E22F2D3D4007F5694 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "SPUtil/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
@@ -102,8 +97,6 @@
 		F606086222F2D3D4007F5694 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Common.m"; path = "SPUtil/Classes/NSString+Common.m"; sourceTree = "<group>"; };
 		F606086322F2D3D4007F5694 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "SPUtil/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
 		F606086422F2D3D5007F5694 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+badge.h"; path = "SPUtil/Classes/UITabBar+badge.h"; sourceTree = "<group>"; };
-		F606086522F2D3D5007F5694 /* TPCommonResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCommonResource.h; path = SPUtil/Classes/TPCommonResource.h; sourceTree = "<group>"; };
-		F606086622F2D3D5007F5694 /* TPCommonColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCommonColor.h; path = SPUtil/Classes/TPCommonColor.h; sourceTree = "<group>"; };
 		F606086722F2D3D5007F5694 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "SPUtil/Classes/UIView+Frame.h"; sourceTree = "<group>"; };
 		F606086822F2D3D5007F5694 /* UIFont+TPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+TPCommon.h"; path = "SPUtil/Classes/UIFont+TPCommon.h"; sourceTree = "<group>"; };
 		F606086922F2D3D5007F5694 /* UIButton+TPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+TPExtension.h"; path = "SPUtil/Classes/UIButton+TPExtension.h"; sourceTree = "<group>"; };
@@ -114,7 +107,6 @@
 		F606086E22F2D3D5007F5694 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "SPUtil/Classes/UIView+Toast.m"; sourceTree = "<group>"; };
 		F606086F22F2D3D5007F5694 /* TPUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPUIFactory.h; path = SPUtil/Classes/TPUIFactory.h; sourceTree = "<group>"; };
 		F606087022F2D3D5007F5694 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "SPUtil/Classes/UIView+Toast.h"; sourceTree = "<group>"; };
-		F606087122F2D3D5007F5694 /* TPScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPScreen.h; path = SPUtil/Classes/TPScreen.h; sourceTree = "<group>"; };
 		F606087222F2D3D5007F5694 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "SPUtil/Classes/UIView+Frame.m"; sourceTree = "<group>"; };
 		F606087322F2D3D5007F5694 /* UIImage+TPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TPExtension.m"; path = "SPUtil/Classes/UIImage+TPExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,10 +240,6 @@
 				F606086322F2D3D4007F5694 /* NSString+MD5.h */,
 				F606085E22F2D3D4007F5694 /* NSString+MD5.m */,
 				F606086C22F2D3D5007F5694 /* SPComonMacro.h */,
-				F606086622F2D3D5007F5694 /* TPCommonColor.h */,
-				F606086522F2D3D5007F5694 /* TPCommonResource.h */,
-				F606087122F2D3D5007F5694 /* TPScreen.h */,
-				F606085B22F2D3D4007F5694 /* TPScreen.m */,
 				F606086F22F2D3D5007F5694 /* TPUIFactory.h */,
 				F606086022F2D3D4007F5694 /* TPUIFactory.m */,
 				F606086922F2D3D5007F5694 /* UIButton+TPExtension.h */,
@@ -302,8 +290,6 @@
 			files = (
 				F606088122F2D3D6007F5694 /* UIFont+TPCommon.h in Headers */,
 				F606087522F2D3D6007F5694 /* UIImage+TPExtension.h in Headers */,
-				F606088A22F2D3D6007F5694 /* TPScreen.h in Headers */,
-				F606087F22F2D3D6007F5694 /* TPCommonColor.h in Headers */,
 				F606087622F2D3D6007F5694 /* UITextField+Category.h in Headers */,
 				F606088822F2D3D6007F5694 /* TPUIFactory.h in Headers */,
 				F606087D22F2D3D6007F5694 /* UITabBar+badge.h in Headers */,
@@ -313,7 +299,6 @@
 				F606088022F2D3D6007F5694 /* UIView+Frame.h in Headers */,
 				D1E51661D92858ECEF5062DC583EB95F /* Pods-SPUtil_Example-umbrella.h in Headers */,
 				F606088522F2D3D6007F5694 /* SPComonMacro.h in Headers */,
-				F606087E22F2D3D6007F5694 /* TPCommonResource.h in Headers */,
 				F606087A22F2D3D6007F5694 /* NSString+Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +457,6 @@
 				F606087922F2D3D6007F5694 /* TPUIFactory.m in Sources */,
 				140E42DF17A37B13A7E911184E6DBA50 /* Pods-SPUtil_Example-dummy.m in Sources */,
 				F606087B22F2D3D6007F5694 /* NSString+Common.m in Sources */,
-				F606087422F2D3D6007F5694 /* TPScreen.m in Sources */,
 				F606088322F2D3D6007F5694 /* UITabBar+badge.m in Sources */,
 				F606088722F2D3D6007F5694 /* UIView+Toast.m in Sources */,
 				F606088C22F2D3D6007F5694 /* UIImage+TPExtension.m in Sources */,
