@@ -26,4 +26,3 @@ Specscd, jiaqi.zhao@cootek.cn
 ## License
 
 SPUtil is available under the MIT license. See the LICENSE file for more info.
-Common Class
